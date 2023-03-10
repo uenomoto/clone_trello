@@ -6,7 +6,7 @@ import { TaskCards } from "./components/task/TaskCards";
 
 export const App = () => {
   return (
-    <div>
+    <div className="app">
       <Header />
       <TaskCards />
     </div>
