@@ -3,7 +3,7 @@ import { useState } from "react";
 export const TaskCardTitle = () => {
   const [isClick, setIsClick] = useState(false);
 
-  const [inputCardTitle, setInputCardTitle] = useState("好きなTODOタイトル");
+  const [inputCardTitle, setInputCardTitle] = useState("ToDo title");
 
   const handleChange = (e) => {
     setInputCardTitle(e.target.value);
